@@ -1,0 +1,9 @@
+.details-traitement{
+    padding: 1rem;
+}
+
+.details-traitement p span{
+    font-weight: 700;
+    color: gray;
+    font-size: 20px;
+}

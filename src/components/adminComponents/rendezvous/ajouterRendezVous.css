@@ -1,0 +1,47 @@
+.ajout-rendezvous{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1.5rem;
+}
+
+.formulaire-rendezvous{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 600px;
+}
+
+.formulaire-rendezvous form{ 
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;   
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    padding: 1rem;
+    height: max-content;
+
+}
+
+.formulaire-rendezvous form .btn-groups{
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+}
+
+.formulaire-rendezvous form .btn-groups button{
+    flex: 1;
+}
+
+.formulaire-rendezvous form h2  span{ 
+    color: grey;
+    text-decoration: underline solid 1px gray;
+
+}
+
+.formulaire-rendezvous form small{ 
+    color: red;
+
+}

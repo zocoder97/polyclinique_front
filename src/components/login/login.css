@@ -1,0 +1,163 @@
+:host {
+  --is-colorblue: rgb(71, 158, 71);
+}
+
+.connexion {
+  height: 100vh;
+  width: 100%;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.bg-arriere{
+  position: absolute; 
+  z-index: -1;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.bg-left{
+  flex: 0 0 50%;
+  background-color: rgba(95, 97, 97,0.85);
+  
+}
+.bg-rigth{
+  flex: 0 0 50%;
+  background-color: rgba(95, 97, 97,0.90);
+
+}
+
+.contenue {
+  min-width: 300px;
+  width: 75%;
+  max-width: 890px;
+  min-height: 250px;
+  background-color: #fff;
+  display: flex;
+  box-shadow: 2px 2px 2px 2px rgba(90, 87, 87, 0.2);
+  overflow: hidden;
+
+}
+
+.formConnexion {
+  flex: 0 0 50%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  gap: 1.75rem;
+  padding: 2rem 1.5rem;
+}
+
+.logo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.image-logo {
+  height: 60px;
+  width: auto;
+}
+
+form .connexion-text {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: .25rem;
+  color: rgb(71, 158, 71);
+}
+
+.form-group {
+  width: 100%;
+  border: solid rgb(71, 158, 71) 1px;
+  height: 46px;
+  position: relative;
+  border-radius: 3px;
+}
+
+.label-connexion {
+  position: absolute;
+  font-size: 18px;
+  top: 10px;
+  left: .75rem;
+  transition: transform 0.3s ease, color 0.3s ease;
+  font-weight: 300;
+  background-color: #fff;
+  z-index: 1;
+  color: rgb(71, 158, 71);
+}
+.small-valid-connexion{
+  position: absolute;
+  bottom: -1.2rem;
+}
+
+.input-connexion {
+  width: 90%;
+  border: none;
+  height: 100%;
+  background-color: transparent;
+  outline: none;
+  font-weight: bold;
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  left: 0.75rem;
+  border-radius: 3px;
+  /* color: rgb(71, 158, 71); */
+  color: #333;
+}
+
+
+.input-connexion:focus~.label-connexion {
+  transform: translateY(-24px);
+  color: rgb(71, 158, 71);
+  font-weight: 500;
+}
+.input-connexion:not(:placeholder-shown)~.label-connexion {
+  transform: translateY(-24px);
+  color: rgb(71, 158, 71);
+  font-weight: 300;
+}
+
+.input-connexion:focus {
+  color: rgb(71, 158, 71);
+  color:#333 ;
+  font-weight: 300;
+}
+
+.isbutton-connexion {
+  width: 100%;
+}
+
+.mot-oublier {
+  color: #333;
+  text-decoration: none;
+  cursor: pointer;
+}
+.mot-oublier:hover {
+  color: rgb(71, 158, 71);
+}
+
+.button-connexion {
+  background-color: rgb(71, 158, 71);
+  color: #fff;
+  width: 100%;
+  height: 46px;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+}
+
+.dercription {
+  flex: 0 0 50%;
+  background-color: #333;
+  overflow: hidden;
+}
+
+.dercription img {
+  width: 100%;
+  height: 100%;
+}

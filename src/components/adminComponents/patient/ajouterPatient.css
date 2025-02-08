@@ -1,0 +1,35 @@
+.ajout-patient{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 70px);
+}
+
+.formulaire-patient{
+    width: 500px;
+    display: flex;
+    flex-direction: column;    
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    padding: 1rem;
+    height: max-content;
+}
+
+.formulaire-patient form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.formulaire-patient form .btn-group{
+    display: flex;
+    gap: 1rem;
+
+}
+
+.formulaire-patient form .btn-group button{
+    flex: 1;
+}

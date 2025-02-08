@@ -1,0 +1,39 @@
+.dossier{
+    padding: 1rem;
+}
+
+.dossier header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dossier header .input-recherche{
+    display: flex;
+    height: 35px;
+    width: 250px;
+    border: solid 1.5px gray;
+    border-radius: 3px;
+    overflow: hidden;
+    align-items: center;
+}
+
+.dossier header .input-recherche input{
+    height: 100%;
+    border: none;
+    outline: none;
+    width: calc(250px - 50px);
+}
+
+.dossier header .input-recherche .incon{
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    height: 100%;
+    width: 50px;
+}
+
+.dossier header .input-recherche .incon i{
+    font-size: 22px;
+}

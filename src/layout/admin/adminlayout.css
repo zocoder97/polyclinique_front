@@ -1,0 +1,122 @@
+.admin-layout {
+    display: flex;
+    width: 100%;
+}
+
+.nav-bar {
+    width: 180px;
+    background-color: rgb(228, 221, 221);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-nav {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding-left: .5rem;
+    border-bottom: solid 2px #dad8d8;
+
+}
+
+.image-log-nav {
+    height: 50px;
+}
+
+.navigation-admin {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-left: .5rem;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+    transition: all .3s ease;
+    padding-left: .75rem;
+    outline: none;
+}
+
+.link:hover {
+    background-color: lightblue;
+    color: white;
+    border-radius: 5px;
+}
+
+.active-link {
+    background-color: lightblue;
+    color: white;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+.active-link::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 7px;
+    background-color: #fff;
+}
+
+.main-admin{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.sidebar{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: .5rem;
+    border-bottom: solid 2px #dad8d8;
+    padding: 0 1rem;
+
+}
+
+.sidebar-rigth{
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.sidebar-rigth .notification{
+    font-size: 23px;
+}
+
+.isnotification{
+    position: relative;
+}
+
+
+.nombre-notification{
+    position: absolute;
+    color: red;
+    font-size: 18px;
+    font-weight: 500;
+    top: -.5rem;
+    right: -.25rem;
+}
+
+.sidebar-rigth .image-user{
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.sidebar-left i{
+    font-size: 23px;
+    cursor: pointer;
+}

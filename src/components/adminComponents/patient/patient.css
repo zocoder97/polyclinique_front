@@ -1,0 +1,59 @@
+.patient-container{
+    width: 100%;
+    padding: 1rem;
+
+}
+
+.patient-container header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: .75rem;
+}
+
+.patient-container header .header-right{
+    display: flex;
+    gap: .43rem;
+}
+
+.patient-container header .header-right .input-search{
+    border: solid 1px rgb(87, 83, 83);
+    height: 35px;
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+    overflow: hidden;
+    width: 300px;
+}
+.patient-container header .header-right .input-search input{
+    border: none;
+    height: 100%;
+    flex: 1;
+    outline: none;
+    padding-left: .2rem;
+}
+
+.patient-container header .header-right .input-search i{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: gray;
+  width: 50px;
+  color: aliceblue;
+}
+
+.patient-container header .header-right button{
+    height: 35px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    background-color: green;
+    color: aliceblue;
+    padding: 0 .73rem;
+}
+
+.td-action{
+    display: flex;
+    gap: .2rem;
+}

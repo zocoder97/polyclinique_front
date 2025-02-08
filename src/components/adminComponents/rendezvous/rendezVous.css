@@ -1,0 +1,21 @@
+.rendez-vous{
+    padding: 1rem;
+}
+
+.rendez-vous header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rendez-vous header .input-recherche{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.rendez-vous header .input-recherche input{
+   border: solid gray 2px;
+   height: 35px;
+   outline: none;
+}

@@ -1,0 +1,107 @@
+.containair-personnel{
+    width: 100%;
+    position: relative;
+    padding: 1rem;
+}
+
+.containair-personnel header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.containair-personnel header .header-right{
+    display: flex;
+    gap: .43rem;
+}
+
+.containair-personnel header .header-right .input-search{
+    border: solid 1px rgb(87, 83, 83);
+    height: 35px;
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+    overflow: hidden;
+    width: 300px;
+}
+.containair-personnel header .header-right .input-search input{
+    border: none;
+    height: 100%;
+    flex: 1;
+    outline: none;
+    padding-left: .2rem;
+}
+
+.containair-personnel header .header-right .input-search i{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: gray;
+  width: 50px;
+  color: aliceblue;
+}
+
+.containair-personnel header .header-right button{
+    height: 35px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    background-color: green;
+    color: aliceblue;
+    padding: 0 .73rem;
+}
+
+.containair-personnel .td-action{
+    display: flex;
+    gap: .2rem;
+}
+
+
+/* -----------------formulaire-------------- */
+
+.formulaire-personnel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    width: 100%;
+    transform:  scaleY(0);
+    height: auto;
+    padding: 20px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    transform-origin: top;
+    display: flex;
+    justify-content: center;
+
+}
+
+.formulaire-personnel.active {
+    transform: scaleY(1);
+    height: calc(100vh - 70px);
+}
+
+
+.formulaire-personnel form{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    gap: 1rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    padding: 1rem;
+    height: max-content;
+}
+
+.formulaire-personnel form .span-title{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.formulaire-personnel form .btn-group{
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+}
